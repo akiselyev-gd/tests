@@ -29,4 +29,12 @@ To create a microservice implementing REST API for each type of devices and addi
 - Java 1.8
 - MongoDB
 
-	
+
+## How to build
+
+cd elx
+./gradle/gradle-4.6/bin/gradle clean build
+
+## How to run
+
+./gradle/gradle-4.6/bin/gradle run	

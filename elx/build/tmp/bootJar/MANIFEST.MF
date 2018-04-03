@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Start-Class: com.elx.service.Application
+Main-Class: com.elx.service.Application
+
