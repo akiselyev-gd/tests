@@ -20,16 +20,19 @@ To create a microservice implementing REST API for each type of devices and addi
   Endpoints:
   
       - /appliances
-             GET - get a list of all available devices;
-             PUT - add new device;
+             GET  - get a list of all available devices;
              
       - /ovens/id
-             GET - get status of an oven with particular id;
-             PUT - change status of the oven;
+             GET    - get status of an oven with particular id;
+             POST   - add new oven;
+             PUT    - change status of the oven;
+             DELETE - delete an oven with corresponding id;
              
       - /washmachines/id
-             GET - get status of a wash machine with particular id;
-             PUT - change status of the wash machine;
+             GET    - get status of a wash machine with particular id;
+             POST   - add new wash machine;
+             PUT    - change status of the wash machine;
+             DELETE - delete an wash machine with corresponding id;
 
 - The persistent storage is MongoDB.
   It is going to create a separate repo for each type of device.
