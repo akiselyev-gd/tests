@@ -22,6 +22,9 @@ To create a microservice implementing REST API for each type of devices and addi
 
 - Functionality of the REST-controllers has to be covered by unit-tests.
   The repos methods have to be covered by unit-tests too.
+  
+- Bash scripts with `curl` as integration tests.
+  It will be located into exl/tools directory.
 
 
 ### Requirements
