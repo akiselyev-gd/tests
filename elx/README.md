@@ -16,6 +16,20 @@ To create a microservice implementing REST API for each type of devices and addi
   Each device is going to use its own REST-controller with GET and PUT request handlers.
   GET is for getting status unformation about particular device.
   PUT is used to change current status of the device (like a command).
+  
+  Endpoints:
+  
+      - /appliances
+             GET - get a list of all available devices;
+             PUT - add new device;
+             
+      - /ovens/id
+             GET - get status of an oven with particular id;
+             PUT - change status of the oven;
+             
+      - /washmachines/id
+             GET - get status of a wash machine with particular id;
+             PUT - change status of the wash machine;
 
 - The persistent storage is MongoDB.
   It is going to create a separate repo for each type of device.
