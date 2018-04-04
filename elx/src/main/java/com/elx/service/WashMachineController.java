@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.util.UriComponentsBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/appliances")
@@ -24,14 +26,17 @@ public class WashMachineController {
     private WashMachineRepo washMachineStorage;
 
     @RequestMapping(value = "/washmachines", method = RequestMethod.GET)
-    public List<WashMachine> getAllWashMachines() {
+    public ResponseEntity<List<WashMachine>> getAllWashMachines() {
 
         logger.info("Get all available wash machines");
 
         List<WashMachine> machines = new ArrayList<WashMachine>();
         washMachineStorage.findAll().forEach(one -> machines.add(one));
 
-        return machines;
+        if (machines.isEmpty())
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
+
+        return new ResponseEntity<List<WashMachine>>(machines, HttpStatus.OK);
     }
 
     @RequestMapping(value = "/washmachines/{id}", method = RequestMethod.GET)

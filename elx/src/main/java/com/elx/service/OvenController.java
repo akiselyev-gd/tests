@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.util.UriComponentsBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/appliances")
@@ -24,16 +26,17 @@ public class OvenController {
     private OvenRepo ovenStorage;
 
     @RequestMapping(value = "/ovens", method = RequestMethod.GET)
-    public List<Oven> getAllOvens() {
+    public ResponseEntity<List<Oven>> getAllOvens() {
 
         logger.info("Get all available ovens");
 
         List<Oven> ovens = new ArrayList<Oven>();
-        for (Oven one: ovenStorage.findAll()) {
-            ovens.add(one);
-        }
+        ovenStorage.findAll().forEach(one -> ovens.add(one));
 
-        return ovens;
+        if (ovens.isEmpty())
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
+
+        return new ResponseEntity<List<Oven>>(ovens, HttpStatus.OK);
     }
 
     @RequestMapping(value = "/ovens/{id}", method = RequestMethod.GET)
