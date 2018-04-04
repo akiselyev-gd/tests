@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.util.UriComponentsBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 
 @RestController
 public class AppliancesController {
@@ -21,17 +24,23 @@ public class AppliancesController {
     @Autowired
     private OvenRepo ovenStorage;
 
+    @Autowired
+    private WashMachineRepo washMachineStorage;
+
     @RequestMapping("/appliances")
-    public List<Appliance> getAllDevices() {
+    public ResponseEntity<List<Appliance>> getAllDevices() {
 
         logger.info("Get all available devices");
 
         List<Appliance> apps = new ArrayList<Appliance>();
-        for (Oven one: ovenStorage.findAll()) {
-            apps.add(one);
-        }
 
-        return apps;
+        ovenStorage.findAll().forEach(one -> apps.add(one));
+        washMachineStorage.findAll().forEach(one -> apps.add(one));
+
+        if (apps.isEmpty())
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
+
+        return new ResponseEntity<List<Appliance>>(apps, HttpStatus.OK);
     }
 
 }

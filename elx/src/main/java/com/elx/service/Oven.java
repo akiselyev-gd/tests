@@ -14,11 +14,11 @@ public class Oven extends Appliance {
         status = "UNKNOWN";
     }
 
-    public void setStatus(String new_status) {
-        this.status = new_status;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public String getStatus() {
-        return this.status;
+        return status;
     }
 }
