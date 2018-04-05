@@ -3,31 +3,67 @@
   <component name="ChangeListManager">
     <list default="true" id="b166064d-8c88-47db-9c82-e179662e90fe" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/fileContent/annotation-processors.bin" afterPath="$PROJECT_DIR$/elx/.gradle/4.6/fileContent/annotation-processors.bin" />
-      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/elx/.gradle/4.6/fileContent/fileContent.lock" />
-      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/elx/.gradle/4.6/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/elx/.gradle/4.6/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/elx/.gradle/4.6/fileHashes/resourceHashesCache.bin" />
-      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/elx/.gradle/4.6/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/elx/.gradle/4.6/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/elx/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/elx/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/elx/build.gradle" afterPath="$PROJECT_DIR$/elx/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/elx/build/distributions/elx-boot.tar" afterPath="$PROJECT_DIR$/elx/build/distributions/elx-boot.tar" />
-      <change beforePath="$PROJECT_DIR$/elx/build/distributions/elx-boot.zip" afterPath="$PROJECT_DIR$/elx/build/distributions/elx-boot.zip" />
-      <change beforePath="$PROJECT_DIR$/elx/build/distributions/elx.tar" afterPath="$PROJECT_DIR$/elx/build/distributions/elx.tar" />
-      <change beforePath="$PROJECT_DIR$/elx/build/distributions/elx.zip" afterPath="$PROJECT_DIR$/elx/build/distributions/elx.zip" />
-      <change beforePath="$PROJECT_DIR$/elx/build/libs/elx-rest-service-0.1.0.jar" afterPath="$PROJECT_DIR$/elx/build/libs/elx-rest-service-0.1.0.jar" />
-      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/classes/com.elx.service.AppliancesControllerTests.html" afterPath="$PROJECT_DIR$/elx/build/reports/tests/test/classes/com.elx.service.AppliancesControllerTests.html" />
-      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/classes/com.elx.service.OvenControllerTests.html" afterPath="$PROJECT_DIR$/elx/build/reports/tests/test/classes/com.elx.service.OvenControllerTests.html" />
-      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/classes/com.elx.service.WashMachineControllerTests.html" afterPath="$PROJECT_DIR$/elx/build/reports/tests/test/classes/com.elx.service.WashMachineControllerTests.html" />
-      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/elx/build/reports/tests/test/index.html" />
-      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/packages/com.elx.service.html" afterPath="$PROJECT_DIR$/elx/build/reports/tests/test/packages/com.elx.service.html" />
-      <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/TEST-com.elx.service.AppliancesControllerTests.xml" afterPath="$PROJECT_DIR$/elx/build/test-results/test/TEST-com.elx.service.AppliancesControllerTests.xml" />
-      <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/TEST-com.elx.service.OvenControllerTests.xml" afterPath="$PROJECT_DIR$/elx/build/test-results/test/TEST-com.elx.service.OvenControllerTests.xml" />
-      <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/TEST-com.elx.service.WashMachineControllerTests.xml" afterPath="$PROJECT_DIR$/elx/build/test-results/test/TEST-com.elx.service.WashMachineControllerTests.xml" />
-      <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/elx/build/test-results/test/binary/output.bin" />
-      <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/elx/build/test-results/test/binary/output.bin.idx" />
-      <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/elx/build/test-results/test/binary/results.bin" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.0/fileChanges/last-build.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.0/taskHistory/fileSnapshots.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.0/taskHistory/taskHistory.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.0/taskHistory/taskHistory.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/fileChanges/last-build.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/fileContent/annotation-processors.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/fileContent/fileContent.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/fileHashes/fileHashes.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/fileHashes/fileHashes.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/taskHistory/taskHistory.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/taskHistory/taskHistory.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/buildOutputCleanup/cache.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/.gradle/vcsWorkingDirs/gc.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/README.md" afterPath="$PROJECT_DIR$/elx/README.md" />
+      <change beforePath="$PROJECT_DIR$/elx/build/bootScripts/elx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/bootScripts/elx.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/main/com/elx/service/Appliance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/main/com/elx/service/AppliancesController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/main/com/elx/service/Application.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/main/com/elx/service/Oven.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/main/com/elx/service/OvenController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/main/com/elx/service/OvenRepo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/main/com/elx/service/WashMachine.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/main/com/elx/service/WashMachineController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/main/com/elx/service/WashMachineRepo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/test/com/elx/service/AppliancesControllerTests.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/test/com/elx/service/OvenControllerTests.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/test/com/elx/service/OvenRepoTests.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/test/com/elx/service/WashMachineControllerTests.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/test/com/elx/service/WashMachineRepoTests.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/distributions/elx-boot.tar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/distributions/elx-boot.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/distributions/elx.tar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/distributions/elx.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/libs/elx-rest-service-0.1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/classes/com.elx.service.AppliancesControllerTests.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/classes/com.elx.service.OvenControllerTests.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/classes/com.elx.service.OvenRepoTests.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/classes/com.elx.service.WashMachineControllerTests.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/classes/com.elx.service.WashMachineRepoTests.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/css/base-style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/js/report.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/reports/tests/test/packages/com.elx.service.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/scripts/elx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/scripts/elx.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/TEST-com.elx.service.AppliancesControllerTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/TEST-com.elx.service.OvenControllerTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/TEST-com.elx.service.OvenRepoTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/TEST-com.elx.service.WashMachineControllerTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/TEST-com.elx.service.WashMachineRepoTests.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/binary/output.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/binary/output.bin.idx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/binary/results.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/elx/build/tmp/bootJar/MANIFEST.MF" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -109,14 +145,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WashMachineRepoTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WashMachineRepoTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elx/src/test/java/com/elx/service/WashMachineRepoTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="465">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/elx/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="561">
+                <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -153,7 +202,6 @@
         <option value="$PROJECT_DIR$/elx/src/test/java/com/elx/service/ApplianceControllerTest.java" />
         <option value="$PROJECT_DIR$/elx/src/test/java/com/elx/service/ApplianceControllerTests.java" />
         <option value="$PROJECT_DIR$/elx/src/main/java/com/elx/service/Appliances.java" />
-        <option value="$PROJECT_DIR$/elx/README.md" />
         <option value="$PROJECT_DIR$/elx/src/main/java/com/elx/service/Application.java" />
         <option value="$PROJECT_DIR$/elx/tools/add_new_machine.sh" />
         <option value="$PROJECT_DIR$/elx/tools/get_all_aplliances.sh" />
@@ -173,6 +221,7 @@
         <option value="$PROJECT_DIR$/elx/build.gradle" />
         <option value="$PROJECT_DIR$/elx/src/test/java/com/elx/service/OvenRepoTests.java" />
         <option value="$PROJECT_DIR$/elx/src/test/java/com/elx/service/WashMachineRepoTests.java" />
+        <option value="$PROJECT_DIR$/elx/README.md" />
       </list>
     </option>
   </component>
@@ -211,12 +260,6 @@
               <item name="tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="elx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="elx" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tests" type="b2602c69:ProjectViewProjectNode" />
@@ -487,17 +530,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/elx/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="231">
-            <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elx/tools/appliances_test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -661,11 +693,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/elx/src/test/java/com/elx/service/WashMachineRepoTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elx/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="561">
+            <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

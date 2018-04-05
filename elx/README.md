@@ -59,3 +59,4 @@ To create a microservice implementing REST API for each type of devices and addi
 ## How to run
 
 `./gradle/gradle-4.6/bin/gradle run`
+
