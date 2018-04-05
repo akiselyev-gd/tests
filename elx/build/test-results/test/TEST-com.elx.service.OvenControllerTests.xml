@@ -1,95 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.elx.service.OvenControllerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-04-05T10:36:15" hostname="GDSpb1203.local" time="0.049">
+<testsuite name="com.elx.service.OvenControllerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-04-05T10:54:22" hostname="GDSpb1203.local" time="0.047">
   <properties/>
-  <testcase name="GetAllOvensStatusOkOrNotFound" classname="com.elx.service.OvenControllerTests" time="0.009"/>
-  <testcase name="GetOvenByIdStatusOkOrNotFound" classname="com.elx.service.OvenControllerTests" time="0.008"/>
-  <testcase name="CreateNewOvenStatusCreatedOrConflict" classname="com.elx.service.OvenControllerTests" time="0.011"/>
-  <testcase name="ChangeOvenStatusOkOrNotFound" classname="com.elx.service.OvenControllerTests" time="0.01"/>
+  <testcase name="CreateNewOvenStatusCreatedOrConflict" classname="com.elx.service.OvenControllerTests" time="0.009"/>
+  <testcase name="ChangeOvenStatusOkOrNotFound" classname="com.elx.service.OvenControllerTests" time="0.007"/>
   <testcase name="DeleteOvenStatusOkOrNotFound" classname="com.elx.service.OvenControllerTests" time="0.007"/>
-  <system-out><![CDATA[2018-04-05 13:36:15.239  INFO 40687 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.elx.service.OvenControllerTests], using SpringBootContextLoader
-2018-04-05 13:36:15.239  INFO 40687 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.elx.service.OvenControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2018-04-05 13:36:15.239  INFO 40687 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.elx.service.OvenControllerTests]: OvenControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2018-04-05 13:36:15.241  INFO 40687 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.elx.service.Application for test class com.elx.service.OvenControllerTests
-2018-04-05 13:36:15.242  INFO 40687 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2018-04-05 13:36:15.243  INFO 40687 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4c4a7ac6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@a73607c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3a45863, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3e4a3640, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2149f705, org.springframework.test.context.transaction.TransactionalTestExecutionListener@30a803d0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@11ee32e6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7ef9eead, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1066cfa8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6020f8f7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@b99f17, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3184952b]
-2018-04-05 13:36:15.246  INFO 40687 --- [    Test worker] com.elx.service.OvenController           : Get all available ovens
-
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /appliances/ovens
-       Parameters = {}
-          Headers = {}
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = com.elx.service.OvenController
-           Method = public org.springframework.http.ResponseEntity<java.util.List<com.elx.service.Oven>> com.elx.service.OvenController.getAllOvens()
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 200
-    Error message = null
-          Headers = {Content-Type=[application/json;charset=UTF-8]}
-     Content type = application/json;charset=UTF-8
-             Body = [{"deviceId":1000,"type":"TEST OVEN","storageId":"5ac4a322c4cb586f6cc96a38","status":"TESTED"},{"deviceId":-1,"type":"OVEN","storageId":"5ac5f52bc4cb589cc8cfec0a","status":"UNKNOWN"}]
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-2018-04-05 13:36:15.256  INFO 40687 --- [    Test worker] com.elx.service.OvenController           : Get an oven by id 1
-
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /appliances/ovens/1
-       Parameters = {}
-          Headers = {}
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = com.elx.service.OvenController
-           Method = public org.springframework.http.ResponseEntity<com.elx.service.Oven> com.elx.service.OvenController.getOvenById(long)
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = {}
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-2018-04-05 13:36:15.267  INFO 40687 --- [    Test worker] com.elx.service.OvenController           : Add new oven com.elx.service.Oven@298c3d3b
-2018-04-05 13:36:15.269  INFO 40687 --- [    Test worker] com.elx.service.OvenController           : Device with given ID already exits
+  <testcase name="GetAllOvensStatusOkOrNotFound" classname="com.elx.service.OvenControllerTests" time="0.011"/>
+  <testcase name="GetOvenByIdStatusOkOrNotFound" classname="com.elx.service.OvenControllerTests" time="0.007"/>
+  <system-out><![CDATA[2018-04-05 13:54:22.524  INFO 41104 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.elx.service.OvenControllerTests], using SpringBootContextLoader
+2018-04-05 13:54:22.525  INFO 41104 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.elx.service.OvenControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-04-05 13:54:22.525  INFO 41104 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.elx.service.OvenControllerTests]: OvenControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-04-05 13:54:22.527  INFO 41104 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.elx.service.Application for test class com.elx.service.OvenControllerTests
+2018-04-05 13:54:22.528  INFO 41104 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-04-05 13:54:22.528  INFO 41104 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@338428d9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@526af02e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2acc4a18, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7ad1a97d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6801841e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6d6fe2b0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@25bbe98f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@52d62604, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@36937934, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@247b6734, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5ef615a5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3df3ee79]
+2018-04-05 13:54:22.533  INFO 41104 --- [    Test worker] com.elx.service.OvenController           : Add new oven com.elx.service.Oven@10c86a6
+2018-04-05 13:54:22.535  INFO 41104 --- [    Test worker] com.elx.service.OvenController           : Device with given ID already exits
 
 MockHttpServletRequest:
       HTTP Method = POST
@@ -127,7 +51,7 @@ MockHttpServletResponse:
     Forwarded URL = null
    Redirected URL = null
           Cookies = []
-2018-04-05 13:36:15.280  INFO 40687 --- [    Test worker] com.elx.service.OvenController           : Change status for the oven 1
+2018-04-05 13:54:22.542  INFO 41104 --- [    Test worker] com.elx.service.OvenController           : Change status for the oven 1
 
 MockHttpServletRequest:
       HTTP Method = PUT
@@ -165,7 +89,7 @@ MockHttpServletResponse:
     Forwarded URL = null
    Redirected URL = null
           Cookies = []
-2018-04-05 13:36:15.288  INFO 40687 --- [    Test worker] com.elx.service.OvenController           : Delete the oven 1
+2018-04-05 13:54:22.552  INFO 41104 --- [    Test worker] com.elx.service.OvenController           : Delete the oven 1
 
 MockHttpServletRequest:
       HTTP Method = DELETE
@@ -178,6 +102,82 @@ MockHttpServletRequest:
 Handler:
              Type = com.elx.service.OvenController
            Method = public org.springframework.http.ResponseEntity<?> com.elx.service.OvenController.deleteOvenById(long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = null
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2018-04-05 13:54:22.560  INFO 41104 --- [    Test worker] com.elx.service.OvenController           : Get all available ovens
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /appliances/ovens
+       Parameters = {}
+          Headers = {}
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.elx.service.OvenController
+           Method = public org.springframework.http.ResponseEntity<java.util.List<com.elx.service.Oven>> com.elx.service.OvenController.getAllOvens()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = [{"deviceId":-1,"type":"OVEN","storageId":"5ac6005ec4cb58a09066d0e3","status":"UNKNOWN"}]
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2018-04-05 13:54:22.572  INFO 41104 --- [    Test worker] com.elx.service.OvenController           : Get an oven by id 1
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /appliances/ovens/1
+       Parameters = {}
+          Headers = {}
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.elx.service.OvenController
+           Method = public org.springframework.http.ResponseEntity<com.elx.service.Oven> com.elx.service.OvenController.getOvenById(long)
 
 Async:
     Async started = false

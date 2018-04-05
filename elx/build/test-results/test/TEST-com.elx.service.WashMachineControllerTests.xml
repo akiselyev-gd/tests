@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.elx.service.WashMachineControllerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-04-05T10:36:15" hostname="GDSpb1203.local" time="0.111">
+<testsuite name="com.elx.service.WashMachineControllerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-04-05T10:54:06" hostname="GDSpb1203.local" time="0.13">
   <properties/>
   <testcase name="GetAllWashMachinesStatusOkOrNotFound" classname="com.elx.service.WashMachineControllerTests" time="0.009"/>
-  <testcase name="GetWashMachineByIdStatusOkOrNotFound" classname="com.elx.service.WashMachineControllerTests" time="0.031"/>
-  <testcase name="CreateNewWashMachineStatusCreatedOrConflict" classname="com.elx.service.WashMachineControllerTests" time="0.051"/>
-  <testcase name="ChangeWashMachineStatusOkOrNotFound" classname="com.elx.service.WashMachineControllerTests" time="0.01"/>
-  <testcase name="DeleteWashMachineStatusOkOrNotFound" classname="com.elx.service.WashMachineControllerTests" time="0.007"/>
-  <system-out><![CDATA[2018-04-05 13:36:15.118  INFO 40687 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.elx.service.WashMachineControllerTests], using SpringBootContextLoader
-2018-04-05 13:36:15.119  INFO 40687 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.elx.service.WashMachineControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2018-04-05 13:36:15.119  INFO 40687 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.elx.service.WashMachineControllerTests]: WashMachineControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2018-04-05 13:36:15.121  INFO 40687 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.elx.service.Application for test class com.elx.service.WashMachineControllerTests
-2018-04-05 13:36:15.123  INFO 40687 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2018-04-05 13:36:15.123  INFO 40687 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5d65377c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3272885, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2e6272fc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@66a29dd3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@128888ac, org.springframework.test.context.transaction.TransactionalTestExecutionListener@28d1e978, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@15998b0c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6727d069, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@31bcf9c9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@16814caf, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4f197498, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@16e4518a]
-2018-04-05 13:36:15.127  INFO 40687 --- [    Test worker] com.elx.service.OvenController           : Get all available wash machines
+  <testcase name="GetWashMachineByIdStatusOkOrNotFound" classname="com.elx.service.WashMachineControllerTests" time="0.035"/>
+  <testcase name="CreateNewWashMachineStatusCreatedOrConflict" classname="com.elx.service.WashMachineControllerTests" time="0.057"/>
+  <testcase name="ChangeWashMachineStatusOkOrNotFound" classname="com.elx.service.WashMachineControllerTests" time="0.013"/>
+  <testcase name="DeleteWashMachineStatusOkOrNotFound" classname="com.elx.service.WashMachineControllerTests" time="0.012"/>
+  <system-out><![CDATA[2018-04-05 13:54:06.555  INFO 41104 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.elx.service.WashMachineControllerTests], using SpringBootContextLoader
+2018-04-05 13:54:06.556  INFO 41104 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.elx.service.WashMachineControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-04-05 13:54:06.556  INFO 41104 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.elx.service.WashMachineControllerTests]: WashMachineControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-04-05 13:54:06.559  INFO 41104 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.elx.service.Application for test class com.elx.service.WashMachineControllerTests
+2018-04-05 13:54:06.561  INFO 41104 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-04-05 13:54:06.561  INFO 41104 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6d547558, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@75060d29, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c01f933, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3fc76d6c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71772179, org.springframework.test.context.transaction.TransactionalTestExecutionListener@345d053b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57f6aae2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@535e017d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1bea9e86, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4742241d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@250137ad, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6f79f99]
+2018-04-05 13:54:06.566  INFO 41104 --- [    Test worker] com.elx.service.OvenController           : Get all available wash machines
 
 MockHttpServletRequest:
       HTTP Method = GET
@@ -50,7 +50,7 @@ MockHttpServletResponse:
     Forwarded URL = null
    Redirected URL = null
           Cookies = []
-2018-04-05 13:36:15.144  INFO 40687 --- [    Test worker] com.elx.service.OvenController           : Get a wash machine by id 1
+2018-04-05 13:54:06.585  INFO 41104 --- [    Test worker] com.elx.service.OvenController           : Get a wash machine by id 1
 
 MockHttpServletRequest:
       HTTP Method = GET
@@ -88,8 +88,8 @@ MockHttpServletResponse:
     Forwarded URL = null
    Redirected URL = null
           Cookies = []
-2018-04-05 13:36:15.210  INFO 40687 --- [    Test worker] com.elx.service.OvenController           : Add new wash machine com.elx.service.WashMachine@72c3febe
-2018-04-05 13:36:15.212  INFO 40687 --- [    Test worker] com.elx.service.OvenController           : Device with given ID already exits
+2018-04-05 13:54:06.659  INFO 41104 --- [    Test worker] com.elx.service.OvenController           : Add new wash machine com.elx.service.WashMachine@15244603
+2018-04-05 13:54:06.661  INFO 41104 --- [    Test worker] com.elx.service.OvenController           : Device with given ID already exits
 
 MockHttpServletRequest:
       HTTP Method = POST
@@ -127,7 +127,7 @@ MockHttpServletResponse:
     Forwarded URL = null
    Redirected URL = null
           Cookies = []
-2018-04-05 13:36:15.222  INFO 40687 --- [    Test worker] com.elx.service.OvenController           : Change status for the wash machine 1
+2018-04-05 13:54:06.672  INFO 41104 --- [    Test worker] com.elx.service.OvenController           : Change status for the wash machine 1
 
 MockHttpServletRequest:
       HTTP Method = PUT
@@ -165,7 +165,7 @@ MockHttpServletResponse:
     Forwarded URL = null
    Redirected URL = null
           Cookies = []
-2018-04-05 13:36:15.231  INFO 40687 --- [    Test worker] com.elx.service.OvenController           : Delete the wash machine 1
+2018-04-05 13:54:06.686  INFO 41104 --- [    Test worker] com.elx.service.OvenController           : Delete the wash machine 1
 
 MockHttpServletRequest:
       HTTP Method = DELETE
