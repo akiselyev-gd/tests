@@ -40,11 +40,15 @@ public class WashMachineController {
     }
 
     @RequestMapping(value = "/washmachines/{id}", method = RequestMethod.GET)
-    public WashMachine getWashMachineById(@PathVariable("id") long id) {
+    public ResponseEntity<WashMachine> getWashMachineById(@PathVariable("id") long id) {
 
         logger.info("Get a wash machine by id {}", id);
 
-        return new WashMachine();
+        WashMachine machine = washMachineStorage.findByDeviceId(id);
+        if (machine == null)
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
+
+        return new ResponseEntity<WashMachine>(machine, HttpStatus.OK);
     }
 
     @RequestMapping(value = "/washmachines", method = RequestMethod.POST)

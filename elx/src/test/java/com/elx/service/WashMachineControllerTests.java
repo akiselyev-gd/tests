@@ -32,4 +32,10 @@ public class WashMachineControllerTests {
         assertThat(status, anyOf(equalTo(HttpServletResponse.SC_OK), equalTo(HttpServletResponse.SC_NOT_FOUND)));
     }
 
+    @Test
+    public void ApplianceGetWashMachineByIdStatusOkOrNotFound() throws Exception {
+        int status = this.mvc.perform(get("/appliances/washmachines/1")).andDo(print()).andReturn().getResponse().getStatus();
+        assertThat(status, anyOf(equalTo(HttpServletResponse.SC_OK), equalTo(HttpServletResponse.SC_NOT_FOUND)));
+    }
+
 }

@@ -32,4 +32,10 @@ public class OvenControllerTests {
         assertThat(status, anyOf(equalTo(HttpServletResponse.SC_OK), equalTo(HttpServletResponse.SC_NOT_FOUND)));
     }
 
+    @Test
+    public void ApplianceGetOvenByIdStatusOkOrNotFound() throws Exception {
+        int status = this.mvc.perform(get("/appliances/ovens/1")).andDo(print()).andReturn().getResponse().getStatus();
+        assertThat(status, anyOf(equalTo(HttpServletResponse.SC_OK), equalTo(HttpServletResponse.SC_NOT_FOUND)));
+    }
+
 }

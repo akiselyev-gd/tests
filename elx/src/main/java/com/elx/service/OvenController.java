@@ -40,11 +40,15 @@ public class OvenController {
     }
 
     @RequestMapping(value = "/ovens/{id}", method = RequestMethod.GET)
-    public Oven getOvenById(@PathVariable("id") long id) {
+    public ResponseEntity<Oven> getOvenById(@PathVariable("id") long id) {
 
         logger.info("Get an oven by id {}", id);
 
-        return new Oven();
+        Oven oven = ovenStorage.findByDeviceId(id);
+        if (oven == null)
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
+
+        return new ResponseEntity<Oven>(oven, HttpStatus.OK);
     }
 
     @RequestMapping(value = "/ovens", method = RequestMethod.POST)

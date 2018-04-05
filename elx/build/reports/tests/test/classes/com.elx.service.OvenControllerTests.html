@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">2</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.012s</div>
+<div class="counter">0.049s</div>
 <p>duration</p>
 </div>
 </td>
@@ -82,18 +82,61 @@
 <td>0.012s</td>
 <td class="success">passed</td>
 </tr>
+<tr>
+<td class="success">ApplianceGetOvenByIdStatusOkOrNotFound</td>
+<td>0.037s</td>
+<td class="success">passed</td>
+</tr>
 </table>
 </div>
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2018-04-04 20:33:05.484  INFO 35597 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.elx.service.OvenControllerTests], using SpringBootContextLoader
-2018-04-04 20:33:05.485  INFO 35597 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.elx.service.OvenControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2018-04-04 20:33:05.485  INFO 35597 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.elx.service.OvenControllerTests]: OvenControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2018-04-04 20:33:05.488  INFO 35597 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.elx.service.Application for test class com.elx.service.OvenControllerTests
-2018-04-04 20:33:05.491  INFO 35597 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2018-04-04 20:33:05.492  INFO 35597 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4b973b95, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@91af0cd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@43bdcaaf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2f5cfa91, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5d65377c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3272885, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2e6272fc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@66a29dd3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@128888ac, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@28d1e978, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@15998b0c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6727d069]
-2018-04-04 20:33:05.496  INFO 35597 --- [    Test worker] com.elx.service.OvenController           : Get all available ovens
+<pre>2018-04-05 12:21:43.906  INFO 38981 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.elx.service.OvenControllerTests], using SpringBootContextLoader
+2018-04-05 12:21:43.907  INFO 38981 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.elx.service.OvenControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-04-05 12:21:43.907  INFO 38981 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.elx.service.OvenControllerTests]: OvenControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-04-05 12:21:43.910  INFO 38981 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.elx.service.Application for test class com.elx.service.OvenControllerTests
+2018-04-05 12:21:43.911  INFO 38981 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-04-05 12:21:43.911  INFO 38981 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@42aa09f9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ec0865c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@906d1b0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6b25e37, org.springframework.test.context.support.DirtiesContextTestExecutionListener@14456ad9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2e8dec6b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1139235b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@56e94ad, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3ac2357b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7bed68fc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2396af21, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@52ac8c02]
+2018-04-05 12:21:43.923  INFO 38981 --- [    Test worker] com.elx.service.OvenController           : Get an oven by id 1
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /appliances/ovens/1
+       Parameters = {}
+          Headers = {}
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.elx.service.OvenController
+           Method = public org.springframework.http.ResponseEntity&lt;com.elx.service.Oven&gt; com.elx.service.OvenController.getOvenById(long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = null
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2018-04-05 12:21:43.953  INFO 38981 --- [    Test worker] com.elx.service.OvenController           : Get all available ovens
 
 MockHttpServletRequest:
       HTTP Method = GET
@@ -142,7 +185,7 @@ MockHttpServletResponse:
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.6</a> at Apr 4, 2018 8:33:05 PM</p>
+<a href="http://www.gradle.org">Gradle 4.6</a> at Apr 5, 2018 12:21:44 PM</p>
 </div>
 </div>
 </body>
