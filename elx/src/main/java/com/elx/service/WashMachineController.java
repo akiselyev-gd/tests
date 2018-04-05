@@ -52,34 +52,51 @@ public class WashMachineController {
     }
 
     @RequestMapping(value = "/washmachines", method = RequestMethod.POST)
-    public WashMachine addNewWashMachine(@RequestBody WashMachine machine, UriComponentsBuilder ucBuilder) {
+    public ResponseEntity<?> addNewWashMachine(@RequestBody WashMachine machine, UriComponentsBuilder ucBuilder) {
 
-        logger.info("Add new wash machine {}", machine.type);
+        logger.info("Add new wash machine {}", machine);
 
-        washMachineStorage.save(machine);
+        if (washMachineStorage.findByDeviceId(machine.deviceId) != null) {
+            logger.info("Device with given ID already exits");
+            return new ResponseEntity("ALREADY EXISTS", HttpStatus.CONFLICT);
+        }
 
-        return machine;
+        WashMachine newMachine = washMachineStorage.save(machine);
+        if (newMachine == null)
+            return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
+
+        return new ResponseEntity<WashMachine>(newMachine, HttpStatus.CREATED);
+
     }
 
     @RequestMapping(value = "/washmachines/{id}", method = RequestMethod.PUT)
-    public WashMachine cahngeWashMachineState(@PathVariable("id") long id, @RequestBody WashMachine machine) {
+    public ResponseEntity<WashMachine> cahngeWashMachineState(@PathVariable("id") long id, @RequestBody WashMachine machine) {
 
         logger.info("Change status for the wash machine {}", id);
 
         WashMachine one = washMachineStorage.findByDeviceId(id);
         if (one != null) {
             one.setStatus(machine.getStatus());
-            washMachineStorage.save(one);
+            WashMachine changedMachine = washMachineStorage.save(one);
+            if (changedMachine == null)
+                return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity(changedMachine, HttpStatus.OK);
         }
 
-        return one;
+        return new ResponseEntity(HttpStatus.NOT_FOUND);
     }
 
 
     @RequestMapping(value = "/washmachines/{id}", method = RequestMethod.DELETE)
-    public Object deleteWashMachineById(@PathVariable("id") long id) {
+    public ResponseEntity<?> deleteWashMachineById(@PathVariable("id") long id) {
         logger.info("Delete the wash machine {}", id);
 
-        return null;
+        WashMachine one = washMachineStorage.findByDeviceId(id);
+        if (one !=  null) {
+            washMachineStorage.delete(one);
+            return new ResponseEntity(HttpStatus.OK);
+        }
+
+        return new ResponseEntity(HttpStatus.NOT_FOUND);
     }
 }

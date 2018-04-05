@@ -10,7 +10,10 @@
       <change beforePath="$PROJECT_DIR$/elx/.gradle/4.6/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/elx/.gradle/4.6/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/elx/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/elx/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/elx/build/classes/java/main/com/elx/service/OvenController.class" afterPath="$PROJECT_DIR$/elx/build/classes/java/main/com/elx/service/OvenController.class" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/main/com/elx/service/WashMachineController.class" afterPath="$PROJECT_DIR$/elx/build/classes/java/main/com/elx/service/WashMachineController.class" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/test/com/elx/service/AppliancesControllerTests.class" afterPath="$PROJECT_DIR$/elx/build/classes/java/test/com/elx/service/AppliancesControllerTests.class" />
       <change beforePath="$PROJECT_DIR$/elx/build/classes/java/test/com/elx/service/OvenControllerTests.class" afterPath="$PROJECT_DIR$/elx/build/classes/java/test/com/elx/service/OvenControllerTests.class" />
+      <change beforePath="$PROJECT_DIR$/elx/build/classes/java/test/com/elx/service/WashMachineControllerTests.class" afterPath="$PROJECT_DIR$/elx/build/classes/java/test/com/elx/service/WashMachineControllerTests.class" />
       <change beforePath="$PROJECT_DIR$/elx/build/distributions/elx-boot.tar" afterPath="$PROJECT_DIR$/elx/build/distributions/elx-boot.tar" />
       <change beforePath="$PROJECT_DIR$/elx/build/distributions/elx-boot.zip" afterPath="$PROJECT_DIR$/elx/build/distributions/elx-boot.zip" />
       <change beforePath="$PROJECT_DIR$/elx/build/distributions/elx.tar" afterPath="$PROJECT_DIR$/elx/build/distributions/elx.tar" />
@@ -29,6 +32,7 @@
       <change beforePath="$PROJECT_DIR$/elx/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/elx/build/test-results/test/binary/results.bin" />
       <change beforePath="$PROJECT_DIR$/elx/src/main/java/com/elx/service/OvenController.java" afterPath="$PROJECT_DIR$/elx/src/main/java/com/elx/service/OvenController.java" />
       <change beforePath="$PROJECT_DIR$/elx/src/main/java/com/elx/service/WashMachineController.java" afterPath="$PROJECT_DIR$/elx/src/main/java/com/elx/service/WashMachineController.java" />
+      <change beforePath="$PROJECT_DIR$/elx/src/test/java/com/elx/service/AppliancesControllerTests.java" afterPath="$PROJECT_DIR$/elx/src/test/java/com/elx/service/AppliancesControllerTests.java" />
       <change beforePath="$PROJECT_DIR$/elx/src/test/java/com/elx/service/OvenControllerTests.java" afterPath="$PROJECT_DIR$/elx/src/test/java/com/elx/service/OvenControllerTests.java" />
       <change beforePath="$PROJECT_DIR$/elx/src/test/java/com/elx/service/WashMachineControllerTests.java" afterPath="$PROJECT_DIR$/elx/src/test/java/com/elx/service/WashMachineControllerTests.java" />
     </list>
@@ -53,93 +57,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="OvenController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/OvenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="50" column="61" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="50" selection-end-column="61" />
+            <state relative-caret-position="549">
+              <caret line="98" column="56" lean-forward="false" selection-start-line="92" selection-start-column="8" selection-end-line="98" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WashMachineController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/WashMachineController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WashMachineControllerTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/elx/src/test/java/com/elx/service/WashMachineControllerTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="36" column="69" lean-forward="false" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppliancesControllerTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elx/src/test/java/com/elx/service/AppliancesControllerTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elx/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="76" lean-forward="false" selection-start-line="41" selection-start-column="76" selection-end-line="41" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OvenControllerTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elx/src/test/java/com/elx/service/OvenControllerTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="36" column="62" lean-forward="false" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WashMachineRepo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/WashMachineRepo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WashMachine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/WashMachine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,6 +89,70 @@
                 <element signature="e#338#339#0" expanded="true" />
                 <element signature="e#371#372#0" expanded="true" />
                 <element signature="e#400#401#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Appliance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/Appliance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OvenRepo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/OvenRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WashMachineController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/WashMachineController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WashMachineControllerTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/elx/src/test/java/com/elx/service/WashMachineControllerTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppliancesControllerTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elx/src/test/java/com/elx/service/AppliancesControllerTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="86" lean-forward="false" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OvenControllerTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elx/src/test/java/com/elx/service/OvenControllerTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="71" column="5" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -196,8 +194,8 @@
         <option value="$PROJECT_DIR$/elx/build.gradle" />
         <option value="$PROJECT_DIR$/elx/src/main/java/com/elx/service/AppliancesController.java" />
         <option value="$PROJECT_DIR$/elx/src/test/java/com/elx/service/AppliancesControllerTests.java" />
-        <option value="$PROJECT_DIR$/elx/src/test/java/com/elx/service/OvenControllerTests.java" />
         <option value="$PROJECT_DIR$/elx/src/main/java/com/elx/service/OvenController.java" />
+        <option value="$PROJECT_DIR$/elx/src/test/java/com/elx/service/OvenControllerTests.java" />
         <option value="$PROJECT_DIR$/elx/src/main/java/com/elx/service/WashMachineController.java" />
         <option value="$PROJECT_DIR$/elx/src/test/java/com/elx/service/WashMachineControllerTests.java" />
       </list>
@@ -542,43 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/OvenRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/Appliance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/Oven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/WashMachineRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -600,20 +561,39 @@
         <state relative-caret-position="300">
           <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="false" />
+            <element signature="e#360#361#0" expanded="false" />
+            <element signature="e#422#423#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elx/src/test/java/com/elx/service/AppliancesControllerTests.java">
+    <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/OvenRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/Oven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/Appliance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -627,10 +607,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elx/src/test/java/com/elx/service/AppliancesControllerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="86" lean-forward="false" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/elx/src/test/java/com/elx/service/OvenControllerTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="36" column="62" lean-forward="false" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+        <state relative-caret-position="549">
+          <caret line="71" column="5" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -639,8 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/OvenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="50" column="61" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="50" selection-end-column="61" />
+        <state relative-caret-position="549">
+          <caret line="98" column="56" lean-forward="false" selection-start-line="92" selection-start-column="8" selection-end-line="98" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -649,19 +645,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/elx/src/main/java/com/elx/service/WashMachineController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/elx/src/test/java/com/elx/service/WashMachineControllerTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="36" column="69" lean-forward="false" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
-          <folding />
+        <state relative-caret-position="25">
+          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

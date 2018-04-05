@@ -52,34 +52,50 @@ public class OvenController {
     }
 
     @RequestMapping(value = "/ovens", method = RequestMethod.POST)
-    public Oven addNewOven(@RequestBody Oven oven, UriComponentsBuilder ucBuilder) {
+    public ResponseEntity<?> addNewOven(@RequestBody Oven oven, UriComponentsBuilder ucBuilder) {
 
-        logger.info("Add new oven {}", oven.type);
+        logger.info("Add new oven {}", oven);
 
-        ovenStorage.save(oven);
+        if (ovenStorage.findByDeviceId(oven.deviceId) != null) {
+            logger.info("Device with given ID already exits");
+            return new ResponseEntity("ALREADY EXISTS", HttpStatus.CONFLICT);
+        }
 
-        return oven;
+        Oven newOven = ovenStorage.save(oven);
+        if (newOven == null)
+            return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
+
+        return new ResponseEntity<Oven>(newOven, HttpStatus.CREATED);
     }
 
     @RequestMapping(value = "/ovens/{id}", method = RequestMethod.PUT)
-    public Oven cahngeOvenState(@PathVariable("id") long id, @RequestBody Oven oven) {
+    public ResponseEntity<Oven> cahngeOvenState(@PathVariable("id") long id, @RequestBody Oven oven) {
 
         logger.info("Change status for the oven {}", id);
 
         Oven one = ovenStorage.findByDeviceId(id);
         if (one != null) {
             one.setStatus(oven.getStatus());
-            ovenStorage.save(one);
+            Oven changedOven = ovenStorage.save(one);
+            if (changedOven == null)
+                return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity(changedOven, HttpStatus.OK);
         }
 
-        return one;
+        return new ResponseEntity(HttpStatus.NOT_FOUND);
     }
 
 
     @RequestMapping(value = "/ovens/{id}", method = RequestMethod.DELETE)
-    public Object deleteOvenById(@PathVariable("id") long id) {
+    public ResponseEntity<?> deleteOvenById(@PathVariable("id") long id) {
         logger.info("Delete the oven {}", id);
 
-        return null;
+        Oven one = ovenStorage.findByDeviceId(id);
+        if (one !=  null) {
+            ovenStorage.delete(one);
+            return new ResponseEntity(HttpStatus.OK);
+        }
+
+        return new ResponseEntity(HttpStatus.NOT_FOUND);
     }
 }
